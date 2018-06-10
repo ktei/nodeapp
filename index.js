@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello world! This is from an image in DockerHub');
+  res.send('Hello world! This is from an image in DockerHub v2');
 });
 
 const server = app.listen(3000, () => {
